@@ -1,0 +1,92 @@
+/* @import url('https://fonts.googleapis.com/css/family=Poppins:wght@400;500;600;700&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #5372F0;
+}
+.wrapper{
+    width: 605px;
+    background: white;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+}
+.wrapper header{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+.wrapper .content{
+    margin: 35px 0;
+}
+.content .quote-area{
+    display: flex;
+    justify-content: center;
+}
+.quote-area i{
+   font-size: 15px;
+}
+.quote-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+.quote-area i:last-child{
+    margin: 0 0 3px 10px;
+    align-items: flex-end;
+    display: flex;
+}
+.quote-area .quote{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.author .name{
+    margin-top: 3rem;
+    display: inline-block;
+    margin-left: 22rem;
+    font-style: italic;
+}
+
+.buttons ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0 5px;
+    border: solid 1px;
+    border-radius: 40px;
+}
+.buttons ul li i{
+    padding: 10px; 
+}
+ul li{
+    color: blue;
+}
+ul li:hover{
+    background-color: blue;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.buttons .btn{
+    margin-left: 25rem;
+    padding: 10px;
+    font-size: 15px;
+}
+.buttons .btn{
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+.btn:hover{
+    background-color: white;
+    color: blue;
+    transition: all 0.7s ease-in-out;
+}
